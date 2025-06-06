@@ -1,0 +1,160 @@
+/* 1. Set the body background color to #e0f7fa */
+body {
+    background-color: #e0f7fa;
+    /* 2. Set the font-family to Arial, sans-serif */
+    font-family:'Arial',sans-serif;
+    /* 3. Add a padding of 20px to the body */
+    padding: 20px;
+    /* 4. Limit the content width to 900px and center it horizontally using margin */
+    width: 900px;
+    margin: 0 auto;
+}
+/* 5. Center the header text and add a bottom margin of 30px */
+/* 6. Set the header background color to #006064, text color to white, padding to 20px, and border-radius to 10px */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #006064;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* 7. On hover, make the h1 color #ffeb3b and increase its font-size to 2.5em */
+h1:hover{
+    color: #ffeb3b;
+    font-size: 2.5em;
+}
+/* 8. For the main > p element, set font-style to italic and color to #4a148c */
+/* 9. Add a margin-bottom of 10px to main > p */
+p{
+    font-style: italic;
+    color: #4a148c;
+    margin-bottom: 10px;
+}
+/* 10. Set the .intro background color to #fce4ec, padding to 15px, and border-radius to 8px */
+.intro{
+    background-color: #fce4ec;
+    padding: 15px;
+    border-radius: 8px;
+}
+/* 11. Set a margin-bottom of 10px to paragraphs inside .intro */
+.intro p{
+    margin-bottom: 10px;
+}
+/* 12. Give .hello a background color of #ffffff, bold font, and padding of 5px */
+.hello{
+    background-color: #ffffff;
+    font: bold;
+    padding: 5px;
+}
+/* 13. Give #special a 2px solid border with color #3f51b5, text color #1a237e, and padding of 5px */
+#special{
+    border: 2px solid #3f51b5;
+    color: #1a237e;
+    padding: 5px;
+}
+/* 14. Set <em> inside .intro to color #d81b60 and italic style */
+em{
+    color: #d81b60;
+    font-style: italic;
+} 
+/* 15. Style .checklist with a dashed 2px border in #8e24aa, padding of 15px, and margin-top of 20px */
+.checklist{
+    border: dashed 2px #8e24aa;
+    padding: 15px;
+    margin-top: 20px;
+}
+/* 17. Add a left margin of 30px to checked checkboxes */
+input[type="checkbox"]:checked {
+    margin-left: 30px;
+}
+/* 18. On li:hover, change the background color to #f3e5f5 */
+li:hover{
+    background-color: #f3e5f5;
+}
+/* 19. Use display: block and margin-bottom: 10px for form > * elements */
+form > * {
+  display: block;
+  margin-bottom: 10px;
+}
+/* 20. Style input and select with 8px padding, 1px solid #ccc border, and 4px border-radius */
+input,select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* 21. Set all label text to uppercase and bold */
+label{
+    font: bold;
+    text-transform: uppercase;
+}
+/* 22. Style the submit button with background-color #00796b, white text, no border, 10px 15px padding, 4px border-radius, and cursor pointer */
+button[type="submit"]{
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+/* 23. On submit button hover, change background-color to #004d40 */
+button[type="submit"]:hover{
+    background-color:  #004d40;
+}
+/* 24. Set different background colors for .blog article:nth-of-type(1), (2), and (3): #e1f5fe, #fff8e1, and #f1f8e9 respectively */
+.blog article:nth-of-type(1){
+    background-color: #e1f5fe;
+}
+.blog article:nth-of-type(2){
+    background-color: #fff8e1;
+}
+.blog article:nth-of-type(3){
+    background-color: #f1f8e9;
+}
+/* 25. Add 10px padding, 15px bottom margin, and 8px border-radius to all articles in .blog */
+/* 27. Add a box-shadow (0 2px 5px rgba(0, 0, 0, 0.1)) to .blog articles */
+.blog article{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: (0 2px 5px rgba(0, 0, 0, 0.1));
+}
+/* 26. Style .blog h3 with font-size 1.4em and bold weight */
+.blog h3{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+/* 28. In .links a, remove underline, set color to #0288d1 and font-weight to bold */
+.links a{
+    text-decoration: none;
+    color: #0288d1;
+    font-weight: bold;
+}
+/* 29. On .links a:hover, add underline and change color to #01579b */
+.links a:hover{
+    text-decoration: underline;
+    color: #01579b;
+}
+/* 30. Make visited links gray */
+a:visited{
+    color: grey;
+}
+/* 31. Style the footer with background-color #006064, white text, centered text, 15px padding, 40px top margin, and 10px border-radius */
+footer{
+    background-color: #006064;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+/* 32. Set footer p font-size to 0.9em */
+footer p{
+    font-size: 0.9em;
+}
+/* 33. Use ::first-letter on #special to set font-size to 200% and color to green */
+#special::first-letter{
+    font-size: 200%;
+    color: green;
+}
